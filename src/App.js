@@ -7,8 +7,8 @@ import CartPage from "./components/Cart";
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
-        <Header />
         <Route path="/" exact element={<Home />} />
         <Route path="/cart" exact element={<CartPage />} />
       </Routes>
